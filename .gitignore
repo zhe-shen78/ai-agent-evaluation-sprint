@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Environment
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data / outputs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+evaluation/results_*.csv
+reports/*.png
+reports/*.jpg
+reports/*.jpeg
+reports/*.gif
+
+AI_Agent_Evaluation_Plan_Optimized.md
