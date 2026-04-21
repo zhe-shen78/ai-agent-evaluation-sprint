@@ -1,6 +1,6 @@
 # AI Agent + Evaluation Sprint
 
-这是一个面向求职交付的 AI 应用工程仓库模板，目标是在低内存设备上完成：
+这是一个面向求职交付的 AI 应用工程仓库，目标是在低内存设备上完成：
 
 - 1 个可演示 `Text2SQL + 图表` Agent
 - 1 套可复现模型评测流程
@@ -42,13 +42,3 @@ copy .env.example .env
 powershell -ExecutionPolicy Bypass -File .\scripts\run.ps1
 ```
 
-## 推送到 GitHub
-
-```bash
-git init
-git add .
-git commit -m "init: scaffold ai agent evaluation project"
-git branch -M main
-git remote add origin <your-repo-url>
-git push -u origin main
-```
