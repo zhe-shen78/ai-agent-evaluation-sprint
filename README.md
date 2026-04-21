@@ -10,16 +10,34 @@
 
 ```text
 .
-├─ app/                 # Agent 与前端 Demo
-├─ data/                # SQLite 数据与数据字典
-├─ evaluation/          # 测试集、评测脚本、标注规范
-├─ reports/             # 阶段报告与最终评测报告
-├─ docs/                # badcase、面试问答、补充文档
-├─ scripts/             # 一键启动与辅助脚本
-├─ AI_Agent_Evaluation_Plan.md
-├─ AI_Agent_Evaluation_Plan_Optimized.md
-└─ Web3_AI_14Day_Plan.md
+├─ .trae/
+│  └─ skills/
+│     └─ ai-agent-eval-expert/      # 专家级执行 Skill
+├─ app/                              # Agent 与前端 Demo
+├─ data/
+│  ├─ raw/                           # 原始数据
+│  └─ processed/                     # 处理后数据
+├─ evaluation/                       # 测试集、评测脚本、标注规范
+├─ reports/
+│  └─ figures/                       # 报告图表
+├─ docs/
+│  ├─ plans/                         # 计划文档
+│  ├─ archive/                       # 项目档案、会话记忆、仓库规则
+│  └─ logs/                          # 每日进度与复盘
+├─ scripts/                          # 一键启动与辅助脚本
+├─ .env.example
+├─ .gitignore
+├─ README.md
+└─ requirements.txt
 ```
+
+## 文件分类规则
+
+- 代码只放 `app/`
+- 数据只放 `data/raw` 和 `data/processed`
+- 评测资产只放 `evaluation/`
+- 图表与结论只放 `reports/` 与 `reports/figures/`
+- 规划、复盘、记忆只放 `docs/`
 
 ## 快速开始
 
